@@ -8,7 +8,7 @@ for i in range(1,tickets+1):
         s = 990
     elif age >= 25:
         s = 1390
-    summary = summary + s
+    summary += s
 if tickets > 3:
     summary = int(summary * 0.9)
 print ("Сумма к оплате:",summary)
