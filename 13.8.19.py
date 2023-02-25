@@ -11,4 +11,4 @@ for i in range(1,tickets+1):
     summary = summary + s
 if tickets > 3:
     summary = int(summary * 0.9)
-print ("Сумма к оплате",summary)
+print ("Сумма к оплате:",summary)
